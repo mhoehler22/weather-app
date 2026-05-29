@@ -1,0 +1,36 @@
+# ── Credentials ───────────────────────────────────────────────────────────────
+.env
+*.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Backup / scratch files (not portfolio content) ────────────────────────────
+*backup*
+*- backup*
+Untitled*.ipynb
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Internal project scaffolding (not for public repo) ────────────────────────
+CLAUDE.md
+PROJECT_STATE.md
+
+# ── Claude Code project settings ──────────────────────────────────────────────
+.claude/
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
